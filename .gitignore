@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the build process
+bin/
+*.log
+*.out
+*.toc
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Test binary, created by 'go test -c'
+*.test
+
+# Go workspace file
+go.work
+
+# Dependency directories (remove the comment below if you use vendoring)
+# vendor/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MacOS system files
+.DS_Store
+
+# Env files
+.env
+.env.*
+
+# Coverage files
+*.coverprofile
+.coverage/
+
+# Project specific
+data.db
